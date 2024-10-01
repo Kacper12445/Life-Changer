@@ -1,0 +1,16 @@
+<div class="homePage">
+  <div class="bg" *ngIf="!authService.loggedIn()">
+    <div class="display modal-content modal-dialog">
+      <div class="name">
+        Life changer
+      </div>
+      <div class="text">
+        Need help changing your life? <br>
+        You came to the right place.
+      </div>
+      <div class="button">
+        <app-google-login></app-google-login>
+      </div>
+    </div>
+  </div>
+</div>

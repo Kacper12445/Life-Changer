@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Orelega+One&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+HK&display=swap')
+.container
+    display: flex
+    flex-wrap: wrap
+    justify-content: space-around
+
+img 
+    width: 40vh
+    height: 50vh
+    margin-right: 5vh
+    margin-top: 3vh
+    border-radius: 7px
+    cursor: pointer
+
+
+.label 
+    text-align: center
+    font-size: 50px
+    padding-top: 2%
+    font-family: 'Orelega One', cursive
+
+.button
+    display: flex
+    justify-content: center
+
+
+
+.profile-button
+  background: #300606
+  box-shadow: none
+  border: none
+  margin-bottom: 20px
+
+  &:hover
+    background: #300606
+
+  &:focus
+    background: #300606
+    box-shadow: none
+
+  &:active
+    background: #300606
+    box-shadow: none
+
+.checkbox
+    opacity: 0
+    &:checked 
+        ~ img
+            border: 10px solid #0CB504
+        ~ .text 
+            background-color: #0CB504
+            color : black
+
+
+.text 
+    background-color: #300606
+    width: 40vh
+    height: 5vh
+    margin-right: 5vh
+    position: relative
+    top : -5vh
+    right: 0
+    left: 12.8px
+    border-bottom-right-radius: 7px
+    border-bottom-left-radius: 7px
+    color : #fff
+    text-align: center
+    font-family: 'Noto Sans HK', sans-serif
+    font-size: 3vh
+    font-weight: bold
